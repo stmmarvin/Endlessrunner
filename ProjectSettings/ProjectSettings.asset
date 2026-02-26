@@ -144,7 +144,9 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 69e3eaf4952e29c429a8f3e5b669d249, type: 2}
+  - {fileID: -944628639613478452, guid: 3dcdda0e094315444ba50df84e0b9a01, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -153,7 +155,7 @@ PlayerSettings:
   vrSettings:
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
-  enableFrameTimingStats: 0
+  enableFrameTimingStats: 1
   enableOpenGLProfilerGPURecorders: 1
   allowHDRDisplaySupport: 0
   useHDRDisplay: 0
@@ -174,9 +176,10 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 23
-  AndroidTargetSdkVersion: 0
+  AndroidMinSdkVersion: 25
+  AndroidTargetSdkVersion: 36
   AndroidPreferredInstallLocation: 1
+  AndroidPreferredDataLocation: 1
   aotOptions: 
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
@@ -191,11 +194,11 @@ PlayerSettings:
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
   iOSSimulatorArchitecture: 0
-  iOSTargetOSVersionString: 13.0
+  iOSTargetOSVersionString: 15.0
   tvOSSdkVersion: 0
   tvOSSimulatorArchitecture: 0
   tvOSRequireExtendedGameController: 0
-  tvOSTargetOSVersionString: 13.0
+  tvOSTargetOSVersionString: 15.0
   VisionOSSdkVersion: 0
   VisionOSTargetOSVersionString: 1.0
   uIPrerenderedIcon: 0
@@ -264,7 +267,8 @@ PlayerSettings:
   useCustomGradlePropertiesTemplate: 1
   useCustomGradleSettingsTemplate: 1
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 1
+  AndroidTargetArchitectures: 3
+  AndroidAllowedArchitectures: -1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
@@ -394,36 +398,6 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Icons:
     - m_Textures: []
-      m_Width: 432
-      m_Height: 432
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 324
-      m_Height: 324
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 216
-      m_Height: 216
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 162
-      m_Height: 162
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 108
-      m_Height: 108
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 81
-      m_Height: 81
-      m_Kind: 2
-      m_SubKind: 
-    - m_Textures: []
       m_Width: 192
       m_Height: 192
       m_Kind: 1
@@ -452,6 +426,36 @@ PlayerSettings:
       m_Width: 36
       m_Height: 36
       m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 432
+      m_Height: 432
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 324
+      m_Height: 324
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 216
+      m_Height: 216
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 162
+      m_Height: 162
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 108
+      m_Height: 108
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 81
+      m_Height: 81
+      m_Kind: 2
       m_SubKind: 
     - m_Textures: []
       m_Width: 192
@@ -608,7 +612,7 @@ PlayerSettings:
   locationUsageDescription: 
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
-  macOSTargetOSVersion: 11.0
+  macOSTargetOSVersion: 12.0
   switchNMETAOverride: 
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144
@@ -955,6 +959,7 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Purchasing: 0
     UNet: 1
   luminIcon:
     m_Name: 
@@ -992,3 +997,4 @@ PlayerSettings:
   androidVulkanAllowFilterList: []
   androidVulkanDeviceFilterListAsset: {fileID: 0}
   d3d12DeviceFilterListAsset: {fileID: 0}
+  allowedHttpConnections: 3

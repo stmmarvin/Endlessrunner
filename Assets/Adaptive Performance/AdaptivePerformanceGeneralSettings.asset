@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 536372c49e1ca914d822849d36de938c, type: 3}
+  m_Script: {fileID: 21001, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Standalone Providers
   m_EditorClassIdentifier: Unity.AdaptivePerformance::UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
   m_AutomaticLoading: 0
@@ -24,11 +24,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 179fc3111e144bc4688dca4038b3265d, type: 3}
+  m_Script: {fileID: 21000, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Standalone Settings
   m_EditorClassIdentifier: Unity.AdaptivePerformance::UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
   m_LoaderManagerInstance: {fileID: -6585276550262756520}
   m_InitManagerOnStart: 1
+  m_LastSelectedProvider: 
 --- !u!114 &-755336332038146165
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -38,11 +39,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 179fc3111e144bc4688dca4038b3265d, type: 3}
+  m_Script: {fileID: 21000, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Android Settings
   m_EditorClassIdentifier: Unity.AdaptivePerformance::UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
   m_LoaderManagerInstance: {fileID: 8222080457477788993}
   m_InitManagerOnStart: 1
+  m_LastSelectedProvider: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -52,13 +54,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb0ece14d1f711a4fb9325ca819dee95, type: 3}
+  m_Script: {fileID: 21010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: AdaptivePerformanceGeneralSettings
   m_EditorClassIdentifier: Unity.AdaptivePerformance.Editor::UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
   Keys: 0700000001000000
   Values:
   - {fileID: -755336332038146165}
   - {fileID: -4692421931659036939}
+  m_EnableAdaptivePerformance: 1
+  m_Version: 6000.3
 --- !u!114 &8222080457477788993
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -68,7 +72,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 536372c49e1ca914d822849d36de938c, type: 3}
+  m_Script: {fileID: 21001, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Android Providers
   m_EditorClassIdentifier: Unity.AdaptivePerformance::UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
   m_AutomaticLoading: 0
